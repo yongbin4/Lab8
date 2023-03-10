@@ -39,7 +39,6 @@ public class CustomListTest {
         list.addCity(city);
         assertTrue( list.hasCity(city));
     }
-
     @Test
     public void testDelete() {
         list = MockCityList();
